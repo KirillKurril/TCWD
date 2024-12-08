@@ -1,13 +1,11 @@
- //прерываний не будет. прерывания поддерживают только два порта :(  
-  
   #include <LiquidCrystal_I2C.h>
   #include <Wire.h>
   
-  const int buttonPinUp = 3;       // Пин кнопки увеличения температуры
-  const int buttonPinDown = 8;     // Пин кнопки уменьшения температуры
-  const int buttonPinStart = 2;    // Пин кнопки запуска нагрева
+  const int buttonPinUp = 3;       
+  const int buttonPinDown = 8;     
+  const int buttonPinStart = 2;    
 
-  const int heaterPin1 = 5;        // Пин первого нагревательного элемента
+  const int heaterPin1 = 5;        
   const int heaterPin2 = 6; 
 
   const int tempSensor35DzOldPin = A3;   
@@ -74,31 +72,16 @@ void loop() {
 
   if (upStat == LOW && targetTemp < 125) {
     targetTemp += 5;
-    Serial.println("Target temp: ");
-    Serial.println(targetTemp);
-    Serial.println();
-    Serial.println("Current temp: ");
-    Serial.println(currentTemp);
-    Serial.println();
     delay(500);
   } 
 
   if (downStat == LOW && targetTemp > 25) {
     targetTemp -= 5;
-    Serial.println("Target temp: ");
-    Serial.println(targetTemp);
-    Serial.println();
-    Serial.println("Current temp: ");
-    Serial.println(currentTemp);
-    Serial.println();
     delay(500);
   }
 
   if (startStat == LOW){
     keepConstantTemperature = !keepConstantTemperature;
-    Serial.println("Temperature keeping is ");
-    Serial.println((keepConstantTemperature) ? "true\n" : "false\n");
-
     delay(500);
   }
 
@@ -127,20 +110,6 @@ void loop() {
 
 void updateScreen(int sensor35OldValue, int temp35Old, int sensor35NewValue, int temp35New, int currentTemp)
 {
-  // Serial.println("35DZ old pin input value");
-  // Serial.println(sensor35OldValue);
-
-  // Serial.println("35DZ old temperature");
-  // Serial.println(temp35Old);
-  // Serial.println();
-  // Serial.println("35DZ new pin input value");
-  // Serial.println(sensor35NewValue);
-
-  // Serial.println("35DZ new temperature");
-  // Serial.println(temp35New);
-  // Serial.println();
-  // Serial.println();
-
   LCD.clear();
   LCD.setCursor(0, 0); 
   LCD.print("Target temp ");
@@ -168,12 +137,6 @@ void validation(int sensor35OldValue, int sensor35NewValue)
     LCD.print("Fix and restart");
 
     readingIisValid = false;
-
-    if (heatingActive)
-    {
-      digitalWrite(heaterPin1, HIGH);
-      digitalWrite(heaterPin2, HIGH);      
-    }
   }
 
   if (sensor35OldValue > ETV)
@@ -188,12 +151,6 @@ void validation(int sensor35OldValue, int sensor35NewValue)
     digitalWrite(heaterPin2, HIGH);
 
     readingIisValid = false;
-
-    if (heatingActive)
-    {
-      digitalWrite(heaterPin1, HIGH);
-      digitalWrite(heaterPin2, HIGH);
-    }
   }
 
   if (sensor35NewValue > ETV)
@@ -205,14 +162,15 @@ void validation(int sensor35OldValue, int sensor35NewValue)
     LCD.print("Fix and restart");
 
     readingIisValid = false;
+  }
 
+  if(!readingIisValid)
+  {
     if (heatingActive)
     {
       digitalWrite(heaterPin1, false);
       digitalWrite(heaterPin2, false);
     }
-  }
-
-  if(!readingIisValid)
     abort();
+  }
 }

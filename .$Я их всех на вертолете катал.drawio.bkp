@@ -1,0 +1,395 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="25.0.3">
+  <diagram name="Страница — 1" id="y-6yH3yfHg3ZyTPweVbl">
+    <mxGraphModel dx="1200" dy="1169" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xOdODg8De2HINcfzd_fB-2" value="&lt;font&gt;&lt;span&gt;Начало&lt;/span&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-3" value="Настройка интерфейсов и пинов для всех устройств" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-4" value="Установить начальные состояния нагревателей (HIGH)" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-5" value="Инициализация LCD-дисплея" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-6" value="Вывод на дисплей приветственного сообщения на 3 секунды" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-7" value="вызов функции основного цикла программы" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=none;strokeWidth=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-8" target="xOdODg8De2HINcfzd_fB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-15" value="" style="group;strokeWidth=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="40" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-8" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="xOdODg8De2HINcfzd_fB-15">
+          <mxGeometry y="5" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-14" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;setup&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Точка входа&lt;br&gt;в программу&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;" vertex="1" parent="xOdODg8De2HINcfzd_fB-15">
+          <mxGeometry x="20" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-16" target="xOdODg8De2HINcfzd_fB-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-16" value="&lt;font&gt;&lt;span&gt;Начало&lt;/span&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-17" value="" style="group;strokeWidth=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="460" y="40" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-18" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="xOdODg8De2HINcfzd_fB-17">
+          <mxGeometry y="5" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-19" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;div&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i style=&quot;&quot;&gt;loop&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;font-family: &amp;quot;GOST B regular&amp;quot;; background-color: initial;&quot;&gt;Функция&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;основного&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;font-family: &amp;quot;GOST B regular&amp;quot;; background-color: initial;&quot;&gt;цикла&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i style=&quot;&quot;&gt;программы&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;" vertex="1" parent="xOdODg8De2HINcfzd_fB-17">
+          <mxGeometry x="40" y="2.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-22" target="xOdODg8De2HINcfzd_fB-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-22" value="Основной цикл программы" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-23" target="xOdODg8De2HINcfzd_fB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-23" value="Считать состояние кнопок (Up, Down, Start)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-25" target="xOdODg8De2HINcfzd_fB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-25" value="&amp;nbsp;Считать значения датчиков температуры (sensor35OldValue, sensor35NewValue)&lt;br/&gt;  |" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-26" value="Вызов функции валидации значений, полученных с датчиков" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-27" target="xOdODg8De2HINcfzd_fB-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-27" value="Вычисление усредненного значения текущей температуры" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="460" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-28" target="xOdODg8De2HINcfzd_fB-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-28" value="Кнопка Up нажата&lt;div&gt;и целевая температура ниже 25°C?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="550" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-29" target="xOdODg8De2HINcfzd_fB-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-29" value="Кнопка Down нажата&lt;div&gt;и целевая температура выше 125&lt;span style=&quot;background-color: initial;&quot;&gt;°C&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;?&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="620" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-30" target="xOdODg8De2HINcfzd_fB-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-30" target="xOdODg8De2HINcfzd_fB-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-30" value="Кнопка Start нажата?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="710" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-31" target="xOdODg8De2HINcfzd_fB-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-31" target="xOdODg8De2HINcfzd_fB-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-31" value="С предыдущего&lt;br&gt;обновления дисплея&lt;br&gt;прошла минута?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="313.13" y="850" width="175" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-32" target="xOdODg8De2HINcfzd_fB-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-32" target="xOdODg8De2HINcfzd_fB-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-32" value="Текущая&lt;br&gt;температура ниже целевой&lt;div&gt;и нагрев выключен?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-33" target="xOdODg8De2HINcfzd_fB-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-33" value="Режим поддержания&lt;br&gt;постоянной температуры&lt;div&gt;активен?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="304.38" y="1000" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-34" target="xOdODg8De2HINcfzd_fB-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-34" target="xOdODg8De2HINcfzd_fB-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="1450" />
+              <mxPoint x="760" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-34" value="Текущая&lt;br&gt;температура выше целевой и осуществляется нагрев?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294.38" y="1270" width="232.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-36" target="xOdODg8De2HINcfzd_fB-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-36" value="Цикл" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="705" y="1500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-37" value="&lt;font&gt;&lt;span&gt;Конец&lt;/span&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-43" target="xOdODg8De2HINcfzd_fB-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-43" value="Увеличить целевую температцрц на 5°C" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="580" y="500" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-47" value="Пауза 0.5 секунд" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="580" y="560" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-47" target="xOdODg8De2HINcfzd_fB-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="600" />
+              <mxPoint x="405" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-51" target="xOdODg8De2HINcfzd_fB-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-51" value="Увеличить целевую температцрц на 5°C" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="580" y="610" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-52" target="xOdODg8De2HINcfzd_fB-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-52" value="Пауза 0.5 секунд" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="580" y="670" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-57" target="xOdODg8De2HINcfzd_fB-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-57" value="Изменить значение флага поддерживания постоянной температуры на противоположное&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="580" y="720" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-58" value="Пауза 0.5 секунд" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="580" y="780" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-62" target="xOdODg8De2HINcfzd_fB-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="970" />
+              <mxPoint x="399" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-62" target="xOdODg8De2HINcfzd_fB-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-62" value="Обновить показатели, выводимые на дисплей" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="570" y="875" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-69" target="xOdODg8De2HINcfzd_fB-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-69" value="Начать работу нагревательных элементов" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="526.88" y="1150" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-76" value="Остановить работу нагревательных элементов" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1290" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-76" target="xOdODg8De2HINcfzd_fB-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-80" target="xOdODg8De2HINcfzd_fB-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-80" value="&lt;font&gt;&lt;span&gt;Начало&lt;/span&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="800" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-81" value="" style="group;strokeWidth=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="920" y="40" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-82" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="xOdODg8De2HINcfzd_fB-81">
+          <mxGeometry y="5" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-83" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; text-wrap: nowrap;&quot;&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;updateScreen функция&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;text-wrap: nowrap;&quot; face=&quot;GOST B regular&quot;&gt;&lt;i style=&quot;&quot;&gt;вывода состояния&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;text-wrap: nowrap;&quot; face=&quot;GOST B regular&quot;&gt;&lt;i style=&quot;&quot;&gt;системы на дисплей&lt;/i&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;" vertex="1" parent="xOdODg8De2HINcfzd_fB-81">
+          <mxGeometry x="40" y="2.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-84" target="xOdODg8De2HINcfzd_fB-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-84" value="Очистить дисплей" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="790" y="145" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-85" target="xOdODg8De2HINcfzd_fB-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-85" value="Вывести значение целевой температуры" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="790" y="220" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-86" target="xOdODg8De2HINcfzd_fB-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-86" value="Вывести значение текущей температуры" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="790" y="300" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-87" value="&lt;font&gt;&lt;span&gt;Конец&lt;/span&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="800" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-96" target="xOdODg8De2HINcfzd_fB-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-96" value="&lt;font&gt;&lt;span&gt;Начало&lt;/span&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-97" value="" style="group;strokeWidth=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1280" y="40" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-98" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="xOdODg8De2HINcfzd_fB-97">
+          <mxGeometry y="5" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-99" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; text-wrap: nowrap;&quot;&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;validation ф&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;i style=&quot;text-wrap: nowrap; font-family: &amp;quot;GOST B regular&amp;quot;; background-color: initial;&quot;&gt;ункция&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;проверки корректности&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;данных&amp;nbsp; полученных с&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;датчиков&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;" vertex="1" parent="xOdODg8De2HINcfzd_fB-97">
+          <mxGeometry x="40" y="2.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-100" target="xOdODg8De2HINcfzd_fB-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-100" value="задание начальных значений флагам" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="145" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-101" target="xOdODg8De2HINcfzd_fB-125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="280" />
+              <mxPoint x="1330" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-101" value="Модуль разницы&lt;div&gt;показаний датчиков выше заданного порога?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="230" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-103" target="xOdODg8De2HINcfzd_fB-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-103" value="показания&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;первого датчика&lt;/span&gt;&lt;div&gt;выше установленного порога?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="20" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-104" target="xOdODg8De2HINcfzd_fB-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-104" target="xOdODg8De2HINcfzd_fB-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-104" value="показания&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;второго&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D1%8F%26amp%3Bnbsp%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3B%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B0%26lt%3B%2Fspan%26gt%3B%26lt%3Bdiv%26gt%3B%D0%B2%D1%8B%D1%88%D0%B5%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%BE%D1%80%D0%BE%D0%B3%D0%B0%3F%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22strokeWidth%3D2%3Bhtml%3D1%3Bshape%3Dmxgraph.flowchart.decision%3BwhiteSpace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221120%22%20y%3D%22360%22%20width%3D%22220%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;датчика&lt;/span&gt;&lt;div&gt;выше установленного порога?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="470" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-105" target="xOdODg8De2HINcfzd_fB-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-105" value="установлен флаг&lt;div&gt;ошибочных данных?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="630" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-106" target="xOdODg8De2HINcfzd_fB-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-106" value="Активен ли&lt;div&gt;процесс нагрева?&amp;nbsp;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="760" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-108" target="xOdODg8De2HINcfzd_fB-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-108" value="Остановить работу нагревательных элементов" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="860" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-109" value="&lt;font&gt;&lt;span&gt;Начало&lt;/span&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-105" target="xOdODg8De2HINcfzd_fB-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="670" />
+              <mxPoint x="1430" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-115" target="xOdODg8De2HINcfzd_fB-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-115" value="Вывести на дисплей сообщение об ошибке в работе второго датчика" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="480" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-116" target="xOdODg8De2HINcfzd_fB-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-116" value="Проставить флаг ошибочных данных" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="550" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-120" target="xOdODg8De2HINcfzd_fB-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-120" value="Вывести на дисплей сообщение об ошибке в работе первого датчика" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="320" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-121" target="xOdODg8De2HINcfzd_fB-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="415" />
+              <mxPoint x="1560" y="610" />
+              <mxPoint x="1230" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-121" value="Проставить флаг ошибочных данных" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="390" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-125" target="xOdODg8De2HINcfzd_fB-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-125" value="Вывести на дисплей сообщение об ошибке в работе&amp;nbsp; датчиков" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOdODg8De2HINcfzd_fB-126" target="xOdODg8De2HINcfzd_fB-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="265" />
+              <mxPoint x="1600" y="620" />
+              <mxPoint x="1230" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOdODg8De2HINcfzd_fB-126" value="Проставить флаг ошибочных данных" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="240" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

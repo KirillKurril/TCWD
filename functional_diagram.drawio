@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" modified="2024-02-08T01:37:22.000Z" agent="Mozilla/5.0" version="22.1.21" etag="vKWWJYu8L4k0dRPFn9Qs" type="device">
+  <diagram name="Функциональная схема" id="functional_diagram">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Входные устройства -->
+        <mxCell id="input_devices" value="Входные устройства" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="buttons" value="Кнопки управления:&#xa;- Up (Pin 3)&#xa;- Down (Pin 8)&#xa;- Start (Pin 2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="input_devices">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sensors" value="Датчики температуры:&#xa;- Старый (Pin A3)&#xa;- Новый (Pin A0)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="input_devices">
+          <mxGeometry y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Микроконтроллер -->
+        <mxCell id="microcontroller" value="Микроконтроллер Arduino" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="200" height="400" as="geometry" />
+        </mxCell>
+
+        <!-- Основные функции -->
+        <mxCell id="main_functions" value="Основные функции:&#xa;&#xa;1. setup()&#xa;- Инициализация пинов&#xa;- Настройка LCD&#xa;- Приветственное сообщение&#xa;&#xa;2. loop()&#xa;- Считывание кнопок&#xa;- Считывание датчиков&#xa;- Валидация данных&#xa;- Расчет температуры&#xa;- Управление нагревом&#xa;&#xa;3. validation()&#xa;- Проверка разницы показаний&#xa;- Проверка пороговых значений&#xa;&#xa;4. updateScreen()&#xa;- Вывод целевой температуры&#xa;- Вывод текущей температуры" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="180" height="360" as="geometry" />
+        </mxCell>
+
+        <!-- Выходные устройства -->
+        <mxCell id="output_devices" value="Выходные устройства" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="heaters" value="Нагреватели:&#xa;- Нагреватель 1 (Pin 5)&#xa;- Нагреватель 2 (Pin 6)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="output_devices">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="display" value="Дисплей:&#xa;- LCD I2C (0x27)&#xa;- 16x2 символов" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="output_devices">
+          <mxGeometry y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Параметры системы -->
+        <mxCell id="system_params" value="Параметры системы" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="temp_params" value="Температурные параметры:&#xa;- Целевая темп.: 30-125°C&#xa;- Гистерезис: 1°C&#xa;- Порог ошибки: 105°C&#xa;- Дельта ошибки: 5°C" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="system_params">
+          <mxGeometry y="30" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="timing" value="Временные параметры:&#xa;- Интервал обновления: 1000 мс" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="system_params">
+          <mxGeometry y="110" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Соединения -->
+        <mxCell id="input_to_mc" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="input_devices" target="microcontroller">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mc_to_output" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="microcontroller" target="output_devices">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="params_to_mc" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="system_params" target="microcontroller">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

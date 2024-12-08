@@ -1,0 +1,269 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Страница — 1" id="_kWM8DILNsCuz_vBaZIU">
+    <mxGraphModel dx="1876" dy="1296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K9gKTFGcqfZBKArutxAb-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-2" target="K9gKTFGcqfZBKArutxAb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-2" value="&lt;font&gt;&lt;span&gt;Начало&lt;/span&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-3" value="" style="group;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="40" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-4" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="K9gKTFGcqfZBKArutxAb-3">
+          <mxGeometry y="5" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-5" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;div&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;span&gt;loop&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;GOST B regular&amp;quot;; background-color: initial;&quot;&gt;Функция&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;span&gt;основного&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;GOST B regular&amp;quot;; background-color: initial;&quot;&gt;цикла&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;GOST B regular&quot;&gt;&lt;span&gt;программы&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="K9gKTFGcqfZBKArutxAb-3">
+          <mxGeometry x="40" y="2.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-7" target="K9gKTFGcqfZBKArutxAb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-7" value="Основной цикл программы" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-9" target="K9gKTFGcqfZBKArutxAb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-9" value="Считать состояние кнопок Up, Down, Start" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="140" y="55" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-11" target="K9gKTFGcqfZBKArutxAb-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-11" value="&amp;nbsp;Считать значения датчиков температуры&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-13" target="K9gKTFGcqfZBKArutxAb-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-13" value="Вычисление усредненного значения текущей температуры" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="605" y="145" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-16" target="K9gKTFGcqfZBKArutxAb-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-16" target="K9gKTFGcqfZBKArutxAb-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-16" value="Кнопка Up&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;нажата&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;и целевая&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;температура&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ниже 125°C?&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="230" width="175" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-19" target="K9gKTFGcqfZBKArutxAb-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-19" target="K9gKTFGcqfZBKArutxAb-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="405" />
+              <mxPoint x="148" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-19" value="Кнопка Start нажата?" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="245" y="243.75" width="110" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-21" target="K9gKTFGcqfZBKArutxAb-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="493" />
+              <mxPoint x="275" y="493" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-21" value="С предыдущего&lt;br&gt;обновления дисплея&lt;div&gt;прошла&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;минута?&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="155" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-24" target="K9gKTFGcqfZBKArutxAb-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-24" target="K9gKTFGcqfZBKArutxAb-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-24" value="Текущая&lt;br&gt;температура ниже&lt;div&gt;целевой&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;и нагрев&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;выключен?&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="585" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-27" target="K9gKTFGcqfZBKArutxAb-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-27" target="K9gKTFGcqfZBKArutxAb-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="775" y="493" />
+              <mxPoint x="775" y="810" />
+              <mxPoint x="300" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-27" value="Режим&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;поддержания&lt;/span&gt;&lt;div&gt;постоянной&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;температуры&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;активен?&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="550" y="435" width="135" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-29" target="K9gKTFGcqfZBKArutxAb-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-29" value="Текущая&lt;br&gt;температура выше&lt;div&gt;целевой и осуществляется&lt;/div&gt;&lt;div&gt;нагрев?&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="186.25" y="580" width="227.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-31" target="K9gKTFGcqfZBKArutxAb-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-31" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rotation=-180;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="245" y="845" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-32" value="&lt;font&gt;&lt;span&gt;Конец&lt;/span&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="471.88" y="845" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-34" target="K9gKTFGcqfZBKArutxAb-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-34" value="Увеличить целевую температцрц на 5°C" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="610" y="360" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-36" target="K9gKTFGcqfZBKArutxAb-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-36" value="Пауза 0.5 секунд" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="535" y="315" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-38" target="K9gKTFGcqfZBKArutxAb-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-38" value="Уменьшить целевую температцрц на 5°C" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="396.25" y="360" width="117.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-40" target="K9gKTFGcqfZBKArutxAb-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-40" value="Изменить значение флага поддерживания постоянной температуры на противоположное&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="237.5" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-42" target="K9gKTFGcqfZBKArutxAb-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-42" value="Обновить показатели, выводимые на дисплей" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="300" y="467.5" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-43" value="Начать работу нагревательных элементов" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="715" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-45" target="K9gKTFGcqfZBKArutxAb-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-45" value="Остановить работу нагревательных элементов" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="230" y="710" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-47" target="K9gKTFGcqfZBKArutxAb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-47" value="Вызов функции валидации значений, полученных с датчиков" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="344.38" y="145" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-50" target="K9gKTFGcqfZBKArutxAb-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-50" target="K9gKTFGcqfZBKArutxAb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-50" value="Кнопка Down&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;нажата&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;и целевая&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;температура&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;выше 25°C?&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="390" y="225" width="130" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-51" value="Пауза 0.5 секунд" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="340" y="315" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-51" target="K9gKTFGcqfZBKArutxAb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-54" target="K9gKTFGcqfZBKArutxAb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-54" value="Пауза 0.5 секунд" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fontFamily=GOST B regular;fontStyle=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="355" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-21" target="K9gKTFGcqfZBKArutxAb-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148" y="560" />
+              <mxPoint x="475" y="560" />
+              <mxPoint x="475" y="493" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-56" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="705" as="sourcePoint" />
+            <mxPoint x="775" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-57" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="765" as="sourcePoint" />
+            <mxPoint x="618" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-58" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Нет&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="250" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-59" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Да&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="325" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-60" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Нет&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="245" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-61" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Нет&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="245" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-62" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Да&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="325" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-63" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Да&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="315" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-64" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Да&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="462.5" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-65" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Нет&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="527.5" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-66" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Нет&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="462.5" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-67" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Да&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="670" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-68" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Да&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="670" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-69" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Нет&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="595" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K9gKTFGcqfZBKArutxAb-29" target="K9gKTFGcqfZBKArutxAb-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="625" />
+              <mxPoint x="145" y="810" />
+              <mxPoint x="300" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-71" value="&lt;font face=&quot;GOST B regular&quot;&gt;&lt;i&gt;Нет&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="595" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9gKTFGcqfZBKArutxAb-72" value="&lt;span style=&quot;font-family: &amp;quot;GOST B regular&amp;quot;; font-style: italic; text-wrap: wrap;&quot;&gt;Цикл&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="860" width="45" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

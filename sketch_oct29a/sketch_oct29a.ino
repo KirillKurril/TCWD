@@ -1,13 +1,11 @@
- //прерываний не будет. прерывания поддерживают только два порта :(  
-  
   #include <LiquidCrystal_I2C.h>
   #include <Wire.h>
   
-  const int buttonPinUp = 3;       // Пин кнопки увеличения температуры
-  const int buttonPinDown = 8;     // Пин кнопки уменьшения температуры
-  const int buttonPinStart = 2;    // Пин кнопки запуска нагрева
+  const int buttonPinUp = 3;       
+  const int buttonPinDown = 8;     
+  const int buttonPinStart = 2;    
 
-  const int heaterPin1 = 5;        // Пин первого нагревательного элемента
+  const int heaterPin1 = 5;        
   const int heaterPin2 = 6; 
 
   const int tempSensor35DzOldPin = A3;   
@@ -18,7 +16,7 @@
   const unsigned long errorTemperatureValue = 105;
   const unsigned long ETV = errorTemperatureValue * 1023 / 500;
 
-  bool heatingActive = true; //не трогать, так схема собрана
+  bool heatingActive = true; 
   bool keepConstantTemperature = false;
 
   unsigned int targetTemp = 30;              
@@ -105,7 +103,7 @@ void loop() {
   if (millis() - lastUpdate >= updateInterval)
   {
     lastUpdate = millis();
-    //updateScreen(sensor35OldValue, temp35Old, sensor35NewValue, temp35New, currentTemp);    
+    updateScreen(sensor35OldValue, temp35Old, sensor35NewValue, temp35New, currentTemp);    
   }
 
   if (keepConstantTemperature)
